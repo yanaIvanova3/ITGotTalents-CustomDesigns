@@ -1,9 +1,10 @@
 body{
     background-image: url(../images/texture-dark-background-metal.jpg);
+    font-family: 'Bad Script', cursive;
 }
 
 .logo {
-    margin: 10px 200px 10px 0;
+    margin: 10px 280px 10px 40px;
 }
 
 .nav {
@@ -27,23 +28,76 @@ body{
     margin: 25px 0 0 15px;
 }
 
-#green {
+.green {
     background-color: #58FA58;
 }
 
-#green img {
-    width: 50px;
-    height:50px;
-}
 
-#yellow {
+
+.yellow {
     background-color: #F4FA58;
 }
 
-#orange {
+.orange {
     background-color: #FAAC58;
 }
 
-#pink {
+.pink {
     background-color: #FA5858;
 }
+
+.info {
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+    padding-bottom: 50px;
+    background-color: #05b3e8;
+    border: 1px groove #05b3e8;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.info h3 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.info p {
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+
+}
+
+hr {
+    width: 150px;
+}
+
+.partners {
+    border-radius: 10px;
+    margin-top: 10px;
+    height: auto;
+}
+
+.partners img {
+    width: 200px;
+}
+
+
+.imperia {
+    background:url(../images/imperia.png) no-repeat center center;
+    height:200px;
+    width:400px;
+    margin-left: 100px;
+}
+
+.trader {
+    background:url(../images/trader.png) no-repeat center center;
+    height:200px;
+    width:400px;
+}
+
+.partner {
+    margin-left: 60px;
+}
+
