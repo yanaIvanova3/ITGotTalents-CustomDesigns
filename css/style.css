@@ -23,19 +23,19 @@ body{
     margin: 25px 0 0 15px;
 }
 
-.green {
+.green-border {
     background-color: #58FA58;
 }
 
-.yellow {
+.yellow-border {
     background-color: #F4FA58;
 }
 
-.orange {
+.orange-border {
     background-color: #FAAC58;
 }
 
-.pink {
+.pink-border {
     background-color: #FA5858;
 }
 
@@ -105,7 +105,7 @@ hr {
 }
 .blue {
     background-color: #05b3e8;
-    margin-right: 280px;
+    margin: 10px 280px 10px 40px;
     color: #FFFFFF;
 }
 
