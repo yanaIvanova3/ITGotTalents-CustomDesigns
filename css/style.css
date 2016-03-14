@@ -123,3 +123,8 @@ hr {
     margin-top: 15px;
 }
 
+#active {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
