@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e06da80c-f9e0-492e-a079-bcc76dc3934b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/students.html" afterPath="$PROJECT_DIR$/Views/students.html" />
     </list>
     <ignored path="bootstrap.iws" />
@@ -27,8 +28,8 @@
       <file leaf-file-name="students.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Views/students.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4727694">
-              <caret line="24" column="32" selection-start-line="19" selection-start-column="7" selection-end-line="25" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.74855155">
+              <caret line="178" column="68" selection-start-line="178" selection-start-column="68" selection-end-line="178" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -432,8 +433,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Views/students.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4727694">
-          <caret line="24" column="32" selection-start-line="19" selection-start-column="7" selection-end-line="25" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.74855155">
+          <caret line="178" column="68" selection-start-line="178" selection-start-column="68" selection-end-line="178" selection-end-column="68" />
           <folding />
         </state>
       </provider>
