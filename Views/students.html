@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <script type="text/javascript" src="../bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="../css/students.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link href='https://fonts.googleapis.com/css?family=Bad+Script&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <!--<script src="bower_components/jquery/dist/jquery.js" type="text/javascript"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>-->
+    <title>Title</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="container">
+        <div class="row navbar">
+            <div class="col-lg-3 col-md-3 col-xs-12 animate logo"><a href="#"><img src="../images/it-talents-logo1.png" alt=""></a></div>
+            <div class="col-lg-1 col-md-1 col-xs-12 nav green" ><a href="#"><img src="../images/home-5-xxl.png" alt=""></a></div>
+            <div class="col-lg-1 col-md-1 col-xs-12 nav yellow animate" id="active" ><a href="#"><img src="../images/student.png"></a></div>
+            <div class="col-lg-1 col-md-1 col-xs-12 nav orange animate"><a href="#"><img src="../images/project.png" alt=""></a></div>
+            <div class="col-lg-1 col-md-1 col-xs-12 nav pink animate"><a href="#"><img src="../images/login.png" alt=""></a></div>
+        </div>
+
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="input-group" id="adv-search">
+                                    <input type="text" class="form-control" placeholder="Search for students" />
+                                    <div class="input-group-btn">
+                                        <div class="btn-group" role="group">
+                                            <div class="dropdown dropdown-lg">
+                                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+                                                <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                                    <form class="form-horizontal" role="form">
+                                                        <div class="form-group">
+                                                            <label for="filter">Filter by</label>
+                                                            <select class="form-control">
+                                                                <option value="0" selected>All options</option>
+                                                                <option value="2">Most popular</option>
+                                                                <option value="3">Top rated</option>
+                                                                <option value="4">Most commented</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="contain">Name/Username</label>
+                                                            <input class="form-control" type="text" ng-model="search.firstName" />
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="contain">Preferable programming language</label>
+                                                            <input class="form-control" type="text"/>
+                                                        </div>
+                                                        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th>
+                                </th>
+                                <th>
+                                    <h4>Student name</h4>
+                                </th>
+                                <th>
+                                    <h4>Programming language</h4>
+                                </th>
+                                <th>
+                                    <h4>IT Talents Season</h4>
+                                </th>
+                                <th>
+                                    <h4>Action</h4>
+                                </th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <img src="../images/user.png" alt="">
+                                </td>
+                                <td>
+                                    John Doe
+                                </td>
+                                <td>
+                                    JavaScript
+                                </td>
+                                <td>
+                                    Season 5
+                                </td>
+                                <td>
+                                    <a href=""><img src="../images/info-blue.png" alt=""></a>
+                                </td>
+                            <tr>
+                                <td>
+                                    <img src="../images/user.png" alt="">
+                                </td>
+                                <td>
+                                    John Doe
+                                </td>
+                                <td>
+                                    JavaScript
+                                </td>
+                                <td>
+                                    Season 5
+                                </td>
+                                <td>
+                                    <a href=""><img src="../images/info-green.png" alt=""></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="../images/user.png" alt="">
+                                </td>
+                                <td>
+                                    John Doe
+                                </td>
+                                <td>
+                                    JavaScript
+                                </td>
+                                <td>
+                                    Season 5
+                                </td>
+                                <td>
+                                    <a href=""><img src="../images/info-yellow.png" alt=""></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="../images/user.png" alt="">
+                                </td>
+                                <td>
+                                    John Doe
+                                </td>
+                                <td>
+                                    JavaScript
+                                </td>
+                                <td>
+                                    Season 5
+                                </td>
+                                <td>
+                                    <a href=""><img src="../images/info-orange.png" alt=""></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="../images/user.png" alt="">
+                                </td>
+                                <td>
+                                    John Doe
+                                </td>
+                                <td>
+                                    JavaScript
+                                </td>
+                                <td>
+                                    Season 5
+                                </td>
+                                <td>
+                                    <a href=""><img src="../images/info-pink.png" alt=""></a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row footer">
+            <div class="col-lg-3 col-md-3 col-xs-12 footer blue animate">
+                <a href="#"><img src="../images/copyright.png" alt=""></a>
+                <p>Copyright Watermelon 2016</p>
+            </div>
+            <div class="col-lg-1 col-md-1  col-xs-12 footer green animate"><a href="www.facebook.com"><img src="../images/facebook.png" alt=""></a></div>
+            <div class="col-lg-1 col-md-1  col-xs-12 footer yellow animate"><a href="#"><img src="../images/google-plus.png"></a></div>
+            <div class="col-lg-1 col-md-1  col-xs-12 footer orange animate"><a href="#"><img src="../images/twitter.png" alt=""></a></div>
+            <div class="col-lg-1 col-md-1  col-xs-12 footer pink animate"><a href="#"><img src="../images/instagram.png" alt=""></a></div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    var klasses = ["bounce", "pulse", "swing", "rubberBand", "tada", "wobble", "jello", "rotateIn"];
+
+    var item = klasses[Math.floor(Math.random()*klasses.length)];
+
+    $.fn.extend({
+        animateCss: function (animationName) {
+            $(this).addClass('animated ' + animationName);
+        }
+    });
+
+    $('#active').animateCss(item);
+
+    $('.animate').on("mouseenter", function () {
+        $(this).addClass('animated ' + 'pulse');
+    });
+
+    $('.animate').on("mouseleave", function () {
+        $(this).removeClass('animated ' + 'pulse');
+    });
+
+    $('.partners img').on("mouseenter", function () {
+        $(this).addClass('animated ' + 'tada');
+    })
+
+    $('.partners img').on("mouseleave", function () {
+        $(this).removeClass('animated ' + 'tada');
+    });
+</script>
+</html>
