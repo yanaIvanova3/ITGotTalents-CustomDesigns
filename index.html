@@ -31,13 +31,19 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-xs-12 partners green">
+            <div class="col-lg-12 col-md-12 col-xs-12 partners green secondary">
                 <div class="row">
-                    <div class="col-lg-5 col-md-5 imperia">
-                        <a href=""></a>
+                    <div class="col-lg-2 col-md-2 col-xs-4 imperia partner">
+                        <a href=""><img src="images/imperia.png" alt=""></a>
                     </div>
-                    <div class="col-lg-5 col-md-5 trader">
-                        <a href=""></a>
+                    <div class="col-lg-2 col-md-2 col-xs-4 trader partner">
+                        <a href=""><img src="images/trader.png" alt=""></a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-xs-4 ikonomika partner">
+                        <a href=""><img src="images/SP-ikonomika.png" alt=""></a>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-xs-4 economics partner">
+                        <a href=""><img src="images/economics.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -130,5 +136,12 @@
         $(this).removeClass('animated ' + 'pulse');
     });
 
+    $('.partners img').on("mouseenter", function () {
+        $(this).addClass('animated ' + 'tada');
+    })
+
+    $('.partners img').on("mouseleave", function () {
+        $(this).removeClass('animated ' + 'tada');
+    });
 </script>
 </html>

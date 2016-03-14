@@ -77,22 +77,10 @@ hr {
 }
 
 
-.imperia {
-    background:url(../images/imperia.png) no-repeat center center;
-    height:200px;
-    width:400px;
-    margin-left: 100px;
-}
-
-.trader {
-    background:url(../images/trader.png) no-repeat center center;
-    height:200px;
-    width:400px;
-}
-
 .partner {
     margin-left: 60px;
 }
+
 
 .last {
     margin-bottom: 70px;
@@ -128,3 +116,4 @@ hr {
     -webkit-animation-delay: 0s;
     -webkit-animation-iteration-count: infinite;
 }
+
