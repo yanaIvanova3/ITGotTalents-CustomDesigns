@@ -18,9 +18,9 @@
         <div class="row navbar">
             <div class="col-lg-3 col-md-3 logo"><a href="#"><img src="images/it-talents-logo1.png" alt=""></a></div>
             <div class="col-lg-1 col-md-1 nav green" id="active"><a href="#"><img src="images/home-5-xxl.png" alt=""></a></div>
-            <div class="col-lg-1 col-md-1 nav yellow" id="yellow"><a href="#"><img src="images/student.png"></a></div>
-            <div class="col-lg-1 col-md-1 nav orange" id="orange"><a href="#"><img src="images/project.png" alt=""></a></div>
-            <div class="col-lg-1 col-md-1 nav pink" id="pink"><a href="#"><img src="images/login.png" alt=""></a></div>
+            <div class="col-lg-1 col-md-1 nav yellow animate" ><a href="#"><img src="images/student.png"></a></div>
+            <div class="col-lg-1 col-md-1 nav orange animate"><a href="#"><img src="images/project.png" alt=""></a></div>
+            <div class="col-lg-1 col-md-1 nav pink animate"><a href="#"><img src="images/login.png" alt=""></a></div>
         </div>
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12 info">
@@ -97,20 +97,20 @@
                     </div>
                 </div>
             <div class="row footer">
-                <div class="col-lg-3 col-md-3 col-xs-12 footer blue">
+                <div class="col-lg-3 col-md-3 col-xs-12 footer blue animate">
                     <a href="#"><img src="images/copyright.png" alt=""></a>
                     <p>Copyright Watermelon 2016</p>
                 </div>
-                <div class="col-lg-1 col-md-1  col-xs-12 footer green"><a href="www.facebook.com"><img src="images/facebook.png" alt=""></a></div>
-                <div class="col-lg-1 col-md-1  col-xs-12 footer yellow"><a href="#"><img src="images/google-plus.png"></a></div>
-                <div class="col-lg-1 col-md-1  col-xs-12 footer orange"><a href="#"><img src="images/twitter.png" alt=""></a></div>
-                <div class="col-lg-1 col-md-1  col-xs-12 footer pink"><a href="#"><img src="images/instagram.png" alt=""></a></div>
+                <div class="col-lg-1 col-md-1  col-xs-12 footer green animate"><a href="www.facebook.com"><img src="images/facebook.png" alt=""></a></div>
+                <div class="col-lg-1 col-md-1  col-xs-12 footer yellow animate"><a href="#"><img src="images/google-plus.png"></a></div>
+                <div class="col-lg-1 col-md-1  col-xs-12 footer orange animate"><a href="#"><img src="images/twitter.png" alt=""></a></div>
+                <div class="col-lg-1 col-md-1  col-xs-12 footer pink animate"><a href="#"><img src="images/instagram.png" alt=""></a></div>
             </div>
         </div>
     </div>
 </body>
 <script type="text/javascript">
-    var klasses = ["bounce", "flash", "pulse", "flip", "flipInX", "flipInY", "flipOutX", "flipOutY", "zoomOut"];
+    var klasses = ["bounce", "pulse", "swing", "rubberBand", "tada", "wobble", "jello", "fadeOut", "rotateIn"];
 
     var item = klasses[Math.floor(Math.random()*klasses.length)];
 
@@ -121,6 +121,14 @@
     });
 
     $('#active').animateCss(item);
+
+    $('.animate').on("mouseenter", function () {
+        $(this).addClass('animated ' + 'pulse');
+    });
+
+    $('.animate').on("mouseleave", function () {
+        $(this).removeClass('animated ' + 'pulse');
+    });
 
 </script>
 </html>

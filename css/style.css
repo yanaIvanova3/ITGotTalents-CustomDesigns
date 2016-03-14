@@ -124,7 +124,7 @@ hr {
 }
 
 #active {
-    -webkit-animation-duration: 2s;
-    -webkit-animation-delay: 2s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0s;
     -webkit-animation-iteration-count: infinite;
 }
