@@ -79,7 +79,9 @@ body{
         min-width: 500px;
     }
 }
-
+#adv-search {
+    margin-top: 50px;
+}
 table {
     color: #FFFFFF;
     margin: 50px 0;
@@ -107,8 +109,8 @@ table a img {
 }
 .blue {
     background-color: #05b3e8;
-    margin-right: 280px;
     color: #FFFFFF;
+    margin: 10px 280px 10px 40px;
 }
 
 .blue img {
