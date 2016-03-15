@@ -106,19 +106,21 @@ body{
 }
 
 .projects b {
-    color: #05b3e8;
+    font-weight: 900;
 }
 
 .projects a {
     text-decoration: none;
-    color: #FFFFFF;
+    font-weight: 900;
 }
+
 button {
-    background-color: #05b3e8;
-    border: 1px groove #05b3e8;
+    background-color: #FFFFFF;
+    border: 1px groove #FFFFFF;
     border-radius: 5px;
     margin: 10px 0;
     margin-left: 35%;
+
 }
 
 .projects img {
