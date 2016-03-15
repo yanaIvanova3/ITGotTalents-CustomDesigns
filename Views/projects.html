@@ -132,7 +132,7 @@
             </div>
         </div>
 
-        <div class="row footer">
+        <div class="row footer-nav">
             <div class="col-lg-3 col-md-3 col-xs-12 footer blue animate">
                 <a href="#"><img src="../images/copyright.png" alt=""></a>
                 <p>Copyright Watermelon 2016</p>
@@ -150,13 +150,15 @@
 
     var item = klasses[Math.floor(Math.random()*klasses.length)];
 
+
     $.fn.extend({
         animateCss: function (animationName) {
             $(this).addClass('animated ' + animationName);
         }
     });
 
-    $('#active').animateCss(item);
+
+        $('#active').animateCss(item);
 
     $('.animate').on("mouseenter", function () {
         $(this).addClass('animated ' + 'pulse');
