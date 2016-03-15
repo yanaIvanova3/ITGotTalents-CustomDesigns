@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-    <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-    <script type="text/javascript" src="../bower_components/jquery/dist/jquery.js"></script>
-    <script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
-
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/currentProject.css">
     <link rel="stylesheet" href="../css/animate.css">
     <link href='https://fonts.googleapis.com/css?family=Bad+Script&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/photo-gallery.js"></script>
+
+
+
     <!--<script src="bower_components/jquery/dist/jquery.js" type="text/javascript"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>-->
     <title>Title</title>
@@ -24,10 +26,34 @@
             <div class="col-lg-1 col-md-1 col-xs-12 nav orange animate"><a href="#"><img src="../images/project.png" alt=""></a></div>
             <div class="col-lg-1 col-md-1 col-xs-12 nav pink animate"><a href="#"><img src="../images/login.png" alt=""></a></div>
         </div>
-        <div class="col-lg-12 col-md-12 col-xs-12 currentProject">
-            <img src="../images/project1.jpg" alt="">
-        </div>
-
+        <ul class="row">
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="../images/random-colors.jpg">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="../images/random-colors.jpg">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="../images/random-colors.jpg">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="../images/random-colors.jpg">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="../images/random-colors.jpg">
+            </li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                <img class="img-responsive" src="../images/random-colors.jpg">
+            </li>
+        </ul>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
         <div class="row footer-nav">
             <div class="col-lg-3 col-md-3 col-xs-12 footer blue animate">
                 <a href="#"><img src="../images/copyright.png" alt=""></a>
@@ -71,9 +97,24 @@
         $(this).removeClass('animated ' + 'tada');
     });
 
-    $("#pop").on("click", function() {
-        $('#imagepreview').attr('src', $('#imageresource').attr('src')); // here asign the image to the modal when the user click the enlarge link
-        $('#imagemodal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+    $(document).ready(function(){
+        $('ul.first').bsPhotoGallery({
+            "classes" : "col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12",
+            "hasModal" : true
+        });
     });
+    $(document).ready(function(){
+        $('li img').on('click',function(){
+            var src = $(this).attr('src');
+            var img = '<img src="' + src + '" class="img-responsive"/>';
+            $('#myModal').modal();
+            $('#myModal').on('shown.bs.modal', function(){
+                $('#myModal .modal-body').html(img);
+            });
+            $('#myModal').on('hidden.bs.modal', function(){
+                $('#myModal .modal-body').html('');
+            });
+        });
+    })
 </script>
 </html>

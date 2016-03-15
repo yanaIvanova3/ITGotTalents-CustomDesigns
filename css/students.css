@@ -93,7 +93,31 @@ table a img {
     height:50px;
 }
 
+.back button {
+    width: 80px;
+    height: 30px;
+    float: right;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #05b3e8;
+    -webkit-border-radius:5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.more button {
+    width: 80px;
+    height: 30px;
+    float: left;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #05b3e8;
+    -webkit-border-radius:5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
 .footer-nav {
+    margin-top: 100px;
     margin-bottom: 10px;
 }
 .footer {
