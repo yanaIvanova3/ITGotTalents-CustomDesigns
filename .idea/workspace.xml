@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e06da80c-f9e0-492e-a079-bcc76dc3934b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/currentProject.html" afterPath="$PROJECT_DIR$/Views/currentProject.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/projects.html" afterPath="$PROJECT_DIR$/Views/projects.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/registration.html" afterPath="$PROJECT_DIR$/Views/registration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Views/students.html" afterPath="$PROJECT_DIR$/Views/students.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registration.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="registration.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Views/registration.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4727694">
+            <state vertical-scroll-proportion="-15.692307">
               <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -95,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="projects.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Views/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615">
-              <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.72885287">
+              <caret line="121" column="84" selection-start-line="121" selection-start-column="84" selection-end-line="121" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -118,8 +115,8 @@
       <file leaf-file-name="currentProject.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Views/currentProject.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.423077">
-              <caret line="123" column="53" selection-start-line="123" selection-start-column="53" selection-end-line="123" selection-end-column="53" />
+            <state vertical-scroll-proportion="-17.0">
+              <caret line="26" column="96" selection-start-line="26" selection-start-column="96" selection-end-line="26" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -147,16 +144,16 @@
         <option value="$PROJECT_DIR$/Views/test.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/photo-gallery.js" />
-        <option value="$PROJECT_DIR$/Views/currentProject.html" />
         <option value="$PROJECT_DIR$/css/currentProject.css" />
         <option value="$PROJECT_DIR$/js/registration.js" />
         <option value="$PROJECT_DIR$/css/registration.css" />
         <option value="$PROJECT_DIR$/css/students.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/projects.css" />
-        <option value="$PROJECT_DIR$/Views/projects.html" />
         <option value="$PROJECT_DIR$/Views/students.html" />
         <option value="$PROJECT_DIR$/Views/registration.html" />
+        <option value="$PROJECT_DIR$/Views/currentProject.html" />
+        <option value="$PROJECT_DIR$/Views/projects.html" />
       </list>
     </option>
   </component>
@@ -542,14 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Views/currentProject.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.423077">
-          <caret line="123" column="53" selection-start-line="123" selection-start-column="53" selection-end-line="123" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/currentProject.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.3835459">
@@ -608,14 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Views/projects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
-          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/projects.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.153846">
@@ -626,13 +607,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Views/registration.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4727694">
+        <state vertical-scroll-proportion="-15.692307">
           <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/currentProject.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.0">
+          <caret line="26" column="96" selection-start-line="26" selection-start-column="96" selection-end-line="26" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72885287">
+          <caret line="121" column="84" selection-start-line="121" selection-start-column="84" selection-end-line="121" selection-end-column="84" />
+          <folding />
         </state>
       </provider>
     </entry>
