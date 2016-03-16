@@ -39,6 +39,13 @@ body{
     background-color: #FA5858;
 }
 
+#students-table {
+    background-color: rgba(88, 88, 88, 0.2);
+    padding: 20px 30px;
+    -webkit-border-radius:20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
 .dropdown.dropdown-lg .dropdown-menu {
     margin-top: -1px;
     padding: 6px 20px;
