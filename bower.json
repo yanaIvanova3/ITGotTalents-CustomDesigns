@@ -1,7 +1,7 @@
 {
   "name": "bootstrap",
   "authors": [
-    "nikihrs <nikolaihristev90@gmail.com>"
+    "yanaIvanova3 <y.m.ivanova23@gmail.com>"
   ],
   "description": "",
   "main": "",
@@ -17,6 +17,7 @@
   ],
   "dependencies": {
     "jquery": "^2.2.1",
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "bootstrap-datepicker": "^1.6.0"
   }
 }

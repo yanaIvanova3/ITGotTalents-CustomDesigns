@@ -6,10 +6,12 @@
     <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/registration.css">
     <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
     <link href='https://fonts.googleapis.com/css?family=Bad+Script&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="../bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
     <script type="text/javascript" src="../js/registration.js"></script>
 
 
@@ -89,9 +91,13 @@
                                 <label for="reg_fullname" class="sr-only">Full Name</label>
                                 <input type="text" class="form-control" id="reg_fullname" name="reg_fullname" placeholder="full name">
                             </div>
-                            <div class="form-group">
-                                <label for="bday" class="sr-only">Birth Date</label>
-                                <input type="text" class="form-control" id="bday" name="bday" placeholder="birth date">
+                            <!--<div class="form-group">-->
+                                <!--<label for="bday" class="sr-only">Birth Date</label>-->
+                                <!--<input type="text" class="form-control" id="bday" name="bday" placeholder="birth date">-->
+                            <!--</div>-->
+                            <div class="form-group date">
+                                <label for="bday" class="sr-only">bday</label>
+                                <input type="text" class="form-control datepicker" id="bday" name="bday" placeholder="date of birth">
                             </div>
                             <div class="form-group login-group-checkbox">
                                 <input type="radio" class="" name="reg_gender" id="male" placeholder="username">
@@ -105,12 +111,16 @@
                                 <input type="text" class="form-control" id="season" name="season" placeholder="it talents season">
                             </div>
                             <div class="form-group">
-                                <label for="language" class="sr-only">Programming language</label>
-                                <input type="text" class="form-control" id="language" name="language" placeholder="programming language">
+                                <label for="course" class="sr-only">course</label>
+                                <input type="text" class="form-control" id="course" name="course" placeholder="course">
                             </div>
-                            <div class="fileUpload btn btn-info">
-                                <span>Upload photo</span>
-                                <input type="file" class="upload" />
+                            <!--<div class="fileUpload btn btn-info">-->
+                                <!--<span>Upload photo</span>-->
+                                <!--<input type="file" class="upload" />-->
+                            <!--</div>-->
+                            <div class="form-group">
+                                <label for="photo" class="sr-only">Your photo</label>
+                                <input type="url" class="form-control" id="photo" name="photo" placeholder="link to your photo">
                             </div>
                             <div class="form-group login-group-checkbox">
                                 <input type="checkbox" class="" id="reg_agree" name="reg_agree">
@@ -197,6 +207,6 @@
         $(this).removeClass('animated ' + 'tada');
     });
 
-
+    $('.datepicker').datepicker();
 </script>
 </html>
