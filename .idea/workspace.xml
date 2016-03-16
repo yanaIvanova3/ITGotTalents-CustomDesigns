@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e06da80c-f9e0-492e-a079-bcc76dc3934b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Views/registration.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/registration.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/registration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/registration.css" afterPath="$PROJECT_DIR$/css/registration.css" />
     </list>
     <ignored path="bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,8 +40,8 @@
       <file leaf-file-name="registration.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Views/registration.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.23077">
-              <caret line="110" column="63" selection-start-line="110" selection-start-column="63" selection-end-line="110" selection-end-column="63" />
+            <state vertical-scroll-proportion="-29.423077">
+              <caret line="121" column="35" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -69,8 +66,8 @@
       <file leaf-file-name="registration.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/registration.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49040768">
-              <caret line="346" column="21" selection-start-line="346" selection-start-column="21" selection-end-line="346" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.25179857">
+              <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -653,8 +650,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Views/registration.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.23077">
-          <caret line="110" column="63" selection-start-line="110" selection-start-column="63" selection-end-line="110" selection-end-column="63" />
+        <state vertical-scroll-proportion="-29.423077">
+          <caret line="121" column="35" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -665,8 +662,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/registration.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49040768">
-          <caret line="346" column="21" selection-start-line="346" selection-start-column="21" selection-end-line="346" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.25179857">
+          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
           <folding />
         </state>
       </provider>
